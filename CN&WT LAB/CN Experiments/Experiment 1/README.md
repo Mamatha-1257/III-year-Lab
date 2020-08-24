@@ -16,5 +16,5 @@ To implement data link layer framing techniques such as
 
 ## Output
 
-* **Character counting output: **
+* **Character counting output:**
 ![Charatcer Counting](CharacterCountingOutput.png)
