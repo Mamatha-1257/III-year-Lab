@@ -16,7 +16,7 @@ int main() {
         printf("%d: ", i + 1);
         scanf("%s", data[i]);
 
-        frameLengths[i] = strlen(data[i]);
+        frameLengths[i] = strlen(data[i]) + 1;
       
     }
 
@@ -37,7 +37,7 @@ int main() {
     for(int i = 0; i < dataFrameCount; i++){
         
         
-        printf("%d", frameLengths[i] + 1);
+        printf("%d", frameLengths[i]);
         printf("%s", data[i]);
 
     }
