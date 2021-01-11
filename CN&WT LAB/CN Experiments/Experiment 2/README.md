@@ -20,20 +20,20 @@ Write a program to compute CRC code for the polynomials CRC-12,CRC-16 and CRC CC
 
 * ### At receiver side:
 
-1.The transmitted code word is received. 
-2.The received code word is divided with the same CRC generator. 
-3.On division, the remainder so obtained is checked.
+	1. The transmitted code word is received.
+	2. The received code word is divided with the same CRC generator. 
+	3. On division, the remainder so obtained is checked.
 
-* **If the remainder is zero-**
-1.Receiver assumes that no error occurred in the data during the transmission. 
-2.Receiver accepts the data.
+	* **If the remainder is zero-**
+		1. Receiver assumes that no error occurred in the data during the transmission.
+		2. Receiver accepts the data.
 
-* **If the remainder is non-zero**
-1.Receiver assumes that some error occurred in the data during the transmission. 
-2.Receiver rejects the data and asks the sender for retransmission.
+	* **If the remainder is non-zero**
+		1. Receiver assumes that some error occurred in the data during the transmission. 
+		2. Receiver rejects the data and asks the sender for retransmission.
 
 
 ## Output
 
-* **Character counting output:**
-![Charatcer Counting](CharacterCountingOutput.png)
+* **CRC output:**
+![CRC](CRCOutput.png)
