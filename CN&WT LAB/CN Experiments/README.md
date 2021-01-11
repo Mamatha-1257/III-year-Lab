@@ -1,2 +1,2 @@
 
-# All experiments related to the Computer Netwroks Lab
+# All experiments related to the Computer Networks Lab
